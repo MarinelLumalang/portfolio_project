@@ -1,0 +1,286 @@
+
+@font-face{
+ src: url(../Fonts/Sacramento/Sacramento-Regular.ttf);
+ font-family: "Sacramento-Regular"
+}
+@font-face{
+    src: url(../Fonts/Merriweather/Merriweather-Light.ttf);
+    font-family: "Merriweather-Light"
+}
+
+@font-face{
+    src: url(../Fonts/Montserrat/Montserrat-Medium.ttf);
+    font-family: "Montserrat-Medium"
+}
+body{
+    background-color: #ffeee6;
+    /*background: #fff2e6;*/
+}
+li{
+    display: inline;
+    padding: 1.5rem;
+}
+div{
+    margin-top: 8rem;
+}
+ul{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+header{
+    background: linear-gradient(to bottom, #e64c00, #ff5500, #ff6619, #ff7733, #ff884d, #ff9966, #ffaa80, #ffbb99, #ffccb3, #ffddcc, #ffeee6);
+    color: white;
+}
+
+
+
+.name{
+    font-family: "Sacramento-Regular";
+    font-size: 8rem;
+    margin-bottom: 0rem;
+}
+.dream{
+    font-family: "Merriweather-Light";
+    font-size: 2.5rem;
+    margin-top: 0rem;
+}
+.ulap0{
+    animation: ulap0 45s linear infinite;
+    margin-top: 3rem;
+    margin-right: 10rem;
+    width: 10rem;
+}
+.ulap1{
+    animation: ulap1 46s linear infinite;
+    margin-top: 3rem;
+    margin-left: 40rem;
+    width: 10rem;
+    display: block; 
+}
+.ulap2{
+    animation: ulap2 46s linear infinite;
+    margin-top: 3rem;
+    margin-right: 45rem;
+    width: 10rem;
+    display: block;
+}
+.ulap3{
+    animation: ulap3 45s linear infinite;
+    margin-top: 3rem;
+    margin-right: 80rem;
+    width: 10rem;
+
+}
+.ulap4{
+    animation: ulap4 46s linear infinite;
+    margin-top: 3rem;
+    margin-left: 80rem;
+    width: 10rem;
+    display: block;
+}
+.bundok0{
+    margin-top: 5rem;
+    bottom: 10rem;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/*For ANNYEONGHASEYO*/
+.picture{
+    border-radius: 5%; 
+    height: 4in;
+    width: 4in;
+    font-style: bold;
+    position: absolute;
+    top: 78rem;
+    left: 44.5rem;
+
+}
+.hi{
+    color: #ff6619;
+    font-size: 2.3rem;
+    font-family: "Merriweather-Light";
+    margin-top: 24rem;
+}
+
+
+
+/*For SKILLS*/
+.browser0{
+    float: left;
+    height: 16rem;
+    margin: 3rem;
+    
+}
+.skills{
+    font-family: "Merriweather-Light";
+    font-size: 2.5rem; 
+      
+}
+.skills1{
+    font-family: "Montserrat-Medium";
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+
+
+
+/*For ASTRONOMY*/
+.browser1{
+    float: right;
+    height: 16rem;
+    margin: 3rem;
+}
+.astro{
+    font-family: "Merriweather-Light";
+    font-size: 2.3rem;
+    text-align: right;
+    margin-top: 3rem;
+}
+.astronomy{
+    font-family: "Montserrat-Medium";
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+
+
+/* For EDUCATIONAL ATTAINMENT*/
+.browser2{
+    float: left;
+    height: 16rem;
+    margin: 3rem;
+    margin-top: 7.5rem;
+}
+.educ{
+    font-family: "Merriweather-Light";
+    font-size: 2.2rem;
+}
+.college{
+    font-family: "Merriweather-Light";
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.course{
+    font-family: "Montserrat-Medium";
+    font-size: 1.5rem;
+}
+.sh{
+    font-family: "Merriweather-Light";
+    font-size: 1.5rem; 
+}
+.esruoc{
+    font-family: "Montserrat-Medium";
+    font-size: 1.5rem;
+}
+.elem{
+    font-family: "Merriweather-Light";
+    font-size: 1.5rem;
+}
+.yrs{
+    font-family: "Montserrat-Medium";
+    font-size: 1.5rem;
+}
+
+
+
+/*for FOOTER*/
+.contact{
+    font-family: "Merriweather-Light";
+    font-size: 2.3rem;
+    margin-top: 4rem;
+    color: #ff6619;
+    font-style: bold;  
+}
+.getintouch{
+    font-family: "Montserrat-Medium";
+    font-size: 1.5rem;
+}
+.btncontact{
+    background: linear-gradient(to bottom, #ff6619, #ff884d);
+    color: white;
+    margin: 0.3rem;
+    height: 0.5in;
+    width: 2in;
+    font-family: "Merriweather-Light";
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+/*.btncontact :hover
+{
+    background: white;
+    color:#ff7733;
+}*/
+.author
+{
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-family: "Merriweather-Light";
+
+}
+footer{
+    background: #ff7733;
+    color:white;
+}
+.sm{
+    padding-top: 1rem;
+    font-family: "Merriweather-Light";
+    font-size: 1.2rem; 
+}
+
+@keyframes ulap0{
+    0%{
+        opacity: 1rem;
+        transform: translateX(-100vw);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(100vw);
+    }
+}
+@keyframes ulap1{
+    0%{
+        opacity: 1rem;
+        transform: translateX(100vw);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(-100vw);
+    }
+}
+@keyframes ulap2{
+    0%{
+        opacity: 1rem;
+        transform: translateX(-100vw);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(100vw);
+    }
+}
+@keyframes ulap3{
+    0%{
+        opacity: 1rem;
+        transform: translateX(100vw);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(-100vw);
+    }
+}
+@keyframes ulap4{
+    0%{
+        opacity: 1rem;
+        transform: translateX(-100vw);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(100vw);
+    }
+}
